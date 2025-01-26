@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vereador Joel Araujo</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Ícones do FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* Ajuste para o banner */
+    header {
+      margin-top: -1px; /* Remover espaço acima do banner */
+      width: 100%;
+      position: relative;
+    }
+    header img {
+      width: 100%;
+      height: auto;
+      object-fit: cover; /* Garante que a imagem cubra toda a área sem distorcer */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner Section (Grande Imagem) -->
+  <header id="home">
+    <img src="Joel Banner.png" alt="Vereador Joel Araujo">
+    <div class="container text-center" style="position: absolute; top: 50%; transform: translateY(-50%); color: white;">
+    </div>
+    <div class="container text-center">
+      <h1 class="display-4">Bem-vindo ao site do Vereador Joel Araujo</h1>
+      <p class="lead">Trabalhando por uma cidade melhor para todos.</p>
+    </div>
+  </header>
+
+<!-- About Section -->
+<section id="about" class="py-5 bg-white">
+    <div class="container-fluid px-0">
+      <div class="row no-gutters align-items-center">
+        <!-- Carrossel de Imagens -->
+        <div class="col-md-6">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="joel1.jpeg" class="d-block w-100" alt="Imagem 1">
+              </div>
+              <div class="carousel-item">
+                <img src="joel2.jpeg" class="d-block w-100" alt="Imagem 2">
+              </div>
+              <div class="carousel-item">
+                <img src="joel3.jpeg" class="d-block w-100" alt="Imagem 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!-- Texto sobre o Vereador -->
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+          <h2 class="text-center mb-4">Sobre o Vereador</h2>
+          <div>
+            <p>Joel Araujo é um representante comprometido com o desenvolvimento de nossa cidade. Com uma trajetória marcada por conquistas, ele busca ouvir a comunidade e trabalhar em soluções efetivas para os desafios locais.</p>
+            <p>Seus objetivos principais incluem melhorias em saúde, educação e infraestrutura.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Projetos e Ações</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="placeholder.jpg" class="card-img-top" alt="Projeto 1">
+            <div class="card-body">
+              <h5 class="card-title">Projeto 1</h5>
+              <p class="card-text">Descrição breve do projeto 1.</p>
+              <a href="#" class="btn btn-primary">Leia Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="placeholder.jpg" class="card-img-top" alt="Projeto 2">
+            <div class="card-body">
+              <h5 class="card-title">Projeto 2</h5>
+              <p class="card-text">Descrição breve do projeto 2.</p>
+              <a href="#" class="btn btn-primary">Leia Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="placeholder.jpg" class="card-img-top" alt="Projeto 3">
+            <div class="card-body">
+              <h5 class="card-title">Projeto 3</h5>
+              <p class="card-text">Descrição breve do projeto 3.</p>
+              <a href="#" class="btn btn-primary">Leia Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-white">
+    <div class="container">
+      <h2 class="text-center mb-4">Contato</h2>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h5>Entre em contato nas redes sociais:</h5>
+          <div class="social-icons">
+            <!-- Redes Sociais com Ícones e Nome -->
+            <a href="https://instagram.com/joelaraujo" class="btn btn-outline-primary mx-2" target="_blank">
+              <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://facebook.com/joelaraujo" class="btn btn-outline-primary mx-2" target="_blank">
+              <i class="fab fa-facebook"></i> Facebook
+            </a>
+            <a href="https://wa.me/3198765432" class="btn btn-outline-primary mx-2" target="_blank">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+      <p>&copy; 2025 Vereador Joel Araujo. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and FontAwesome JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
